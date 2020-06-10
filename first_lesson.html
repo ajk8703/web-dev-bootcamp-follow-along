@@ -40,6 +40,48 @@
         <input type = "checkbox">
         <input type = "select"> 
 
+        <!-- for radios, they have to have same NAME to be exclusive-->
+        <form>
+            <label for="dogs">Dogs: </label>
+            <input name="petChoice" id="dogs" type="radio" value="DOG">
+            <!-- petchoice will = DOG or CAT depending on radio selection-->
+
+            <label for="cats">Cats: </label>
+            <input name="petChoice" id="cats" type="radio" value="CAT">
+            <!--
+                We don't get in the url, anything sending with this, we have to give it a name
+            <p>What's your favourite colour?</p>
+            <select>
+                <option>Red</option>
+                <option>Orange</option>
+            </select>
+        -->
+
+        <form>
+            <p>What's your favourite colour?</p>
+            <select name="colour">
+                <option>Red</option>
+                <option>Orange</option>
+            </select>
+        </form>
+
+        <!-- how about if don't want to send "red" for red, but "r"?
+            name and value is what is sent -->
+        <form>
+            <p>What's your favourite colour?</p>
+            <select name="c">
+                <option value="r">Red</option>
+                <option value="o">Orange</option>
+            </select>
+
+            <textarea rows="10" cols="20"></textarea>
+        </form>
+
+
+
+
+            <button>GO! </button>
+        </form>
 
         
     </body>
