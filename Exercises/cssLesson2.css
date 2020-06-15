@@ -1,3 +1,16 @@
-body {
-    background: orange;
+/* selecting elements */
+ul {
+    background: pink;
+}
+
+/* selecting IDS use # */
+#yey {
+    border: 2px red solid
+}
+
+/* selecting classes use . */
+.hilite {
+    background: yellow;
+    text-decoration: line-through;
+
 }
