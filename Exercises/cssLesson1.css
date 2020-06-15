@@ -1,0 +1,32 @@
+h1 {
+    color: #004031;
+}
+
+
+h4 {
+    background: rgb(100,20,40, .3);
+    color: rgba(11, 99, 150, 1);
+
+    /* you need all three of these! */
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+
+    /* this works too since it's standard to have all three
+    border: 5px solid purple; */
+}
+
+body {
+    background: pink;
+}
+
+ul {
+    background: url(
+        https://i.pinimg.com/600x315/7a/08/f6/7a08f60cb8d0ccf622e9d0e49ffc0296.jpg
+    );
+    /* so that it doesn't tile */
+    background-repeat: no-repeat;
+    /* so that it covers everything */
+    background-size: cover;
+ 
+}
